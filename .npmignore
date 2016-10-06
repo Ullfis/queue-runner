@@ -10,3 +10,4 @@ jasmine.json
 tsconfig.json
 tsconfig.prod.json
 tslint.json
+index.ts
