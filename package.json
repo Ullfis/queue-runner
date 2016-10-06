@@ -1,6 +1,6 @@
 {
   "name": "queue-runner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Functions to run queue on items",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
