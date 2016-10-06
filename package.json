@@ -1,7 +1,7 @@
 {
   "name": "queue-runner",
   "version": "1.0.0",
-  "description": "Function to run queue on array if items",
+  "description": "Functions to run queue on items",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
