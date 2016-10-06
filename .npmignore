@@ -1,0 +1,12 @@
+node_modules
+.vscode
+npm-debug.*
+dist_tmp
+test
+.editorconfig
+.gitignore
+.npmignore
+jasmine.json
+tsconfig.json
+tsconfig.prod.json
+tslint.json
