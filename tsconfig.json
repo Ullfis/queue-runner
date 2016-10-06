@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": false,
+    "moduleResolution": "node",
+    "lib": ["es2015", "dom"]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "filesGlob": [
+    "./**/*.ts",
+    "./node_modules/@types/**/*.d.ts"
+  ]
+}

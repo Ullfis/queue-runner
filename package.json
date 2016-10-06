@@ -1,0 +1,43 @@
+{
+  "name": "queue-runner",
+  "version": "0.1.0",
+  "description": "Function to run queue on array if items",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "test": "node ./dist_tmp/test/run",
+    "build": "tsc --outDir dist_tmp -p tsconfig.json",
+    "build:prod": "tsc --outDir dist -p tsconfig.prod.json",
+    "prebuild": "./node_modules/.bin/rimraf dist_tmp",
+    "prebuild:prod": "./node_modules/.bin/rimraf dist",
+    "release": "standard-version"
+  },
+  "keywords": [
+    "queue",
+    "runner"
+  ],
+  "author": {
+    "name": "Eyjolfur Vatne",
+    "url": "https://github.com/Ullfis"
+  },
+  "homepage": "https://github.com/Ullfis/queue-runner",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ullfis/queue-runner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ullfis/queue-runner/issues"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^2.5.35",
+    "@types/node": "^6.0.45",
+    "jasmine": "^2.5.2",
+    "jasmine-spec-reporter": "^2.7.0",
+    "rimraf": "^2.5.4",
+    "standard-version": "^2.4.0",
+    "typescript": "^2.1.0-dev.20161006"
+  }
+}
