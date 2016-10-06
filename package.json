@@ -21,7 +21,6 @@
     "url": "https://github.com/Ullfis"
   },
   "homepage": "https://github.com/Ullfis/queue-runner",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/Ullfis/queue-runner.git"
